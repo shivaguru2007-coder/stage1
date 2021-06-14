@@ -47,9 +47,13 @@ function setup(){
     movingRect4 = createSprite(0,0,50,120); 
     movingRect5 = createSprite(0,0,50,120);
     movingRect6 = createSprite(0,0,50,120);
-
+    movingRect2.visible =false;
+    movingRect3.visible =false;
+    movingRect4.visible =false;
+    movingRect5.visible =false;
+    movingRect6.visible =false;
+ 
     fixRect.visible =false;
-
     sRect1 = createSprite(-100,-100,40,40);
 
     sRect3 = createSprite(-100,-100,40,40);
