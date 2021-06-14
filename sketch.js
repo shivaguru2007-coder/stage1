@@ -47,6 +47,7 @@ function setup(){
     movingRect4 = createSprite(0,0,50,120); 
     movingRect5 = createSprite(0,0,50,120);
     movingRect6 = createSprite(0,0,50,120);
+ 
     movingRect2.visible =false;
     movingRect3.visible =false;
     movingRect4.visible =false;
